@@ -7,12 +7,17 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.rathanak.sreang.lighting.MainActivity">
+    tools:context="com.rathanak.sreang.lighting.MainActivity"
+    android:textAlignment="center"
+    android:id="@+id/title"
+    android:background="@drawable/flash_light">
     <Button
         android:id="@+id/buttonFlashlight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
+        android:background="@drawable/turn_off"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="Torch" />
+        android:layout_marginBottom="99dp" />
+
 </RelativeLayout>
